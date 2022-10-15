@@ -1,0 +1,333 @@
+<!--
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<title>Deli</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Grocery Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<!-- //font-awesome icons -->
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic'
+		rel='stylesheet' type='text/css'>
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- start-smooth-scrolling -->
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<div class="top-header">
+			<div class="container">
+				<ul class="top-header-links pull-right">
+					<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+					<li><a href="list.html"><i class="fa fa-list-ol"></i> My List</a></li>
+					<li><a href="produce.html"><i class="fa fa-globe"></i> Browse</a></li>
+					<li><a href="faqs.html"><i class="fa fa-exclamation-circle"></i>
+							Help</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="title-header clearfix">
+			<div class="col-md-4">
+				<div class="cart-title">
+					<h1><a href="#">Smart Cart</a></h1>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="search-bar clearfix">
+					<form action="#" method="post">
+						<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+						<button class="btn btn-submit" type="submit" style="background-color: #3b5998">
+							<i class="fa fa-search" style="color: white"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="my-cart clearfix">
+					<form action="#" method="post" class="last">
+						<fieldset>
+							<input type="hidden" name="cmd" value="_cart" />
+							<input type="hidden" name="display" value="1" />
+							<button class="btn btn-cart" type="submit" style="background-color: white">
+								<i class="fa fa-shopping-cart" style="color: black"> View Cart</i>
+							</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- script-for sticky-nav -->
+	<script>
+		$(document).ready(function () {
+			var navoffeset = $(".agileits_header").offset().top;
+			$(window).scroll(function () {
+				var scrollpos = $(window).scrollTop();
+				if (scrollpos >= navoffeset) {
+					$(".agileits_header").addClass("fixed");
+				} else {
+					$(".agileits_header").removeClass("fixed");
+				}
+			});
+
+		});
+	</script>
+	<!-- //script-for sticky-nav -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="w3l_banner_nav_left">
+			<nav class="navbar nav_bottom">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
+						data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav nav_1">
+						<li><a href="baby.html">Baby</a></li>
+						<li><a href="baking.html">Baking</a></li>
+						<li><a href="beerwineliquor.html">Beer, Wine, & Liquor</a></li>
+						<li><a href="beverages.html">Beverages</a></li>
+						<li><a href="dairy.html">Dairy</a></li>
+						<li><a href="deli.html">Deli</a></li>
+						<li><a href="frozen.html">Frozen</a></li>
+						<li><a href="pantry.html">Pantry</a></li>
+						<li><a href="pet.html">Pet</a></li>
+						<li><a href="produce.html">Produce</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="w3l_banner_nav_right" style="margin-left: 20%">
+			<div class="w3l_banner_nav_right_banner5">
+				<h3>Deli</h3>
+			</div>
+		</div>
+		<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_veg">
+			<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+				<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/turkeypinwheelsdeli.png" alt=" "
+													class="img-responsive" /></a>
+											<p>Turkey Pinwheels</p>
+											<h4>$4.50<span> $4.99</span></h4>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Turkey Pinwheels" />
+													<input type="hidden" name="amount" value="4.99" />
+													<input type="hidden" name="discount_amount" value="0.49" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+										<div class="addtolist">
+											<form onsubmit="return false">
+												<fieldset>
+													<input type="submit" name="submittolist" value="Add to list"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 w3ls_w3l_banner_left bread">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/phillyrollsushi.png" alt=" "
+													class="img-responsive" /></a>
+											<p>Philly Roll</p>
+											<h4>$6.89</h4>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Philly Roll" />
+													<input type="hidden" name="amount" value="6.89" />
+													<input type="hidden" name="discount_amount" value="0.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+										<div class="addtolist">
+											<form onsubmit="return false">
+												<fieldset>
+													<input type="submit" name="submittolist" value="Add to list"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/bonelesswings.png" alt=" "
+													class="img-responsive" /></a>
+											<p>Boneless Chicken Wings</p>
+											<h4>$6.99</h4>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name"
+														value="Boneless Chicken Wings" />
+													<input type="hidden" name="amount" value="6.99" />
+													<input type="hidden" name="discount_amount" value="0.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+										<div class="addtolist">
+											<form onsubmit="return false">
+												<fieldset>
+													<input type="submit" name="submittolist" value="Add to list"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+	<!-- //banner -->
+	<!-- footer -->
+	<div class="footer">
+	</div>
+	<!-- //footer -->
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<script src="js/minicart.min.js"></script>
+	<script>
+		// Mini Cart
+		paypal.minicart.render({
+			action: '#'
+		});
+
+		if (~window.location.search.indexOf('reset=true')) {
+			paypal.minicart.reset();
+		}
+	</script>
+</body>
+<script src="./js/grocerylist.js"></script>
+</html>

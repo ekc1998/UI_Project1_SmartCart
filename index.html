@@ -1,0 +1,313 @@
+<!--
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<title>Member Home</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Grocery Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<!-- //font-awesome icons -->
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic'
+		rel='stylesheet' type='text/css'>
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- start-smooth-scrolling -->
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<div class="top-header">
+			<div class="container">
+				<ul class="top-header-links pull-right">
+					<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+					<li><a href="list.html"><i class="fa fa-list-ol"></i> My List</a></li>
+					<li><a href="produce.html"><i class="fa fa-globe"></i> Browse</a></li>
+					<li><a href="faqs.html"><i class="fa fa-exclamation-circle"></i>
+							Help</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="title-header clearfix">
+			<div class="col-md-4">
+				<div class="cart-title">
+					<h1><a href="#">Smart Cart</a></h1>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="search-bar clearfix">
+					<form action="#" method="post">
+						<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+						<button class="btn btn-submit" type="submit" style="background-color: #3b5998">
+							<i class="fa fa-search" style="color: white"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="my-cart clearfix">
+					<form action="#" method="post" class="last">
+						<fieldset>
+							<input type="hidden" name="cmd" value="_cart" />
+							<input type="hidden" name="display" value="1" />
+							<button class="btn btn-cart" type="submit" style="background-color: white">
+								<i class="fa fa-shopping-cart" style="color: black"> View Cart</i>
+							</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+	</header>
+	<div class="clearfix"> </div>
+	<!-- script-for sticky-nav -->
+	<script>
+		$(document).ready(function () {
+			var navoffeset = $(".agileits_header").offset().top;
+			$(window).scroll(function () {
+				var scrollpos = $(window).scrollTop();
+				if (scrollpos >= navoffeset) {
+					$(".agileits_header").addClass("fixed");
+				} else {
+					$(".agileits_header").removeClass("fixed");
+				}
+			});
+
+		});
+	</script>
+	<!-- //script-for sticky-nav -->
+	<!-- top-brands -->
+	<div class="top-brands">
+		<div class="container">
+			<h3>Your Frequently Shopped Items</h3>
+			<div class="agile_top_brands_grids">
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="images/bonelesswings.png" /></a>
+											<p>Boneless Chicken Wings</p>
+											<h4>$6.99</h4>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name"
+														value="Boneless Chicken Wings" />
+													<input type="hidden" name="amount" value="6.99" />
+													<input type="hidden" name="discount_amount" value="0.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="images/phillyrollsushi.png" /></a>
+											<p>Philly Roll</p>
+											<h4>$6.89</h4>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Philly Roll" />
+													<input type="hidden" name="amount" value="6.89" />
+													<input type="hidden" name="discount_amount" value="0.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/meowmix.png" alt=" "
+													class="img-responsive" /></a>
+											<p>Meow Mix Dry Cat Food</p>
+											<h4>$4.89 <span>$5.99</span></h4>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Dry Cat Food" />
+													<input type="hidden" name="amount" value="5.99" />
+													<input type="hidden" name="discount_amount" value="1.10" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/dietcoke.png" alt=" "
+													class="img-responsive" /></a>
+											<p>Diet Coke 12-pack</p>
+											<h4>$6.99 <span>$7.49</span></h4>
+										</div>
+										<div class="snipcart-details top_brand_home_details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Diet Coke 12-pack" />
+													<input type="hidden" name="amount" value="7.49" />
+													<input type="hidden" name="discount_amount" value="0.50" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart"
+														class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //top-brands -->
+	<!-- footer -->
+	<div class="footer">
+	</div>
+	<!-- //footer -->
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<script src="js/minicart.min.js"></script>
+	<script>
+		// Mini Cart
+		paypal.minicart.render({
+			action: '#'
+		});
+
+		if (~window.location.search.indexOf('reset=true')) {
+			paypal.minicart.reset();
+		}
+	</script>
+</body>
+<script src="./js/grocerylist.js"></script>
+</html>
